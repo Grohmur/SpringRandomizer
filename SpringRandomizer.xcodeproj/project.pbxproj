@@ -9,21 +9,25 @@
 /* Begin PBXBuildFile section */
 		315AC5AE278E0DD100849B7A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 315AC5AD278E0DD100849B7A /* AppDelegate.swift */; };
 		315AC5B0278E0DD100849B7A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 315AC5AF278E0DD100849B7A /* SceneDelegate.swift */; };
-		315AC5B2278E0DD100849B7A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 315AC5B1278E0DD100849B7A /* ViewController.swift */; };
+		315AC5B2278E0DD100849B7A /* SpringRandomizerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 315AC5B1278E0DD100849B7A /* SpringRandomizerViewController.swift */; };
 		315AC5B5278E0DD100849B7A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 315AC5B3278E0DD100849B7A /* Main.storyboard */; };
 		315AC5B7278E0DD200849B7A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 315AC5B6278E0DD200849B7A /* Assets.xcassets */; };
 		315AC5BA278E0DD200849B7A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 315AC5B8278E0DD200849B7A /* LaunchScreen.storyboard */; };
+		A6B61E1EF1EAEF4D80560F23 /* Pods_SpringRandomizer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D19C388D1B967ADECDD2BAD6 /* Pods_SpringRandomizer.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		315AC5AA278E0DD100849B7A /* SpringRandomizer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SpringRandomizer.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		315AC5AD278E0DD100849B7A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		315AC5AF278E0DD100849B7A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		315AC5B1278E0DD100849B7A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		315AC5B1278E0DD100849B7A /* SpringRandomizerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpringRandomizerViewController.swift; sourceTree = "<group>"; };
 		315AC5B4278E0DD100849B7A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		315AC5B6278E0DD200849B7A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		315AC5B9278E0DD200849B7A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		315AC5BB278E0DD200849B7A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B0E51099D33303DEB2C90103 /* Pods-SpringRandomizer.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SpringRandomizer.release.xcconfig"; path = "Target Support Files/Pods-SpringRandomizer/Pods-SpringRandomizer.release.xcconfig"; sourceTree = "<group>"; };
+		CD00E9C6DE8BDF021BEA6F03 /* Pods-SpringRandomizer.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SpringRandomizer.debug.xcconfig"; path = "Target Support Files/Pods-SpringRandomizer/Pods-SpringRandomizer.debug.xcconfig"; sourceTree = "<group>"; };
+		D19C388D1B967ADECDD2BAD6 /* Pods_SpringRandomizer.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SpringRandomizer.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +35,29 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A6B61E1EF1EAEF4D80560F23 /* Pods_SpringRandomizer.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		00FF4C987EB4666BED48A38C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				CD00E9C6DE8BDF021BEA6F03 /* Pods-SpringRandomizer.debug.xcconfig */,
+				B0E51099D33303DEB2C90103 /* Pods-SpringRandomizer.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		315AC5A1278E0DD100849B7A = {
 			isa = PBXGroup;
 			children = (
 				315AC5AC278E0DD100849B7A /* SpringRandomizer */,
 				315AC5AB278E0DD100849B7A /* Products */,
+				00FF4C987EB4666BED48A38C /* Pods */,
+				343B20C0984A293A1A01D780 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -58,13 +74,21 @@
 			children = (
 				315AC5AD278E0DD100849B7A /* AppDelegate.swift */,
 				315AC5AF278E0DD100849B7A /* SceneDelegate.swift */,
-				315AC5B1278E0DD100849B7A /* ViewController.swift */,
+				315AC5B1278E0DD100849B7A /* SpringRandomizerViewController.swift */,
 				315AC5B3278E0DD100849B7A /* Main.storyboard */,
 				315AC5B6278E0DD200849B7A /* Assets.xcassets */,
 				315AC5B8278E0DD200849B7A /* LaunchScreen.storyboard */,
 				315AC5BB278E0DD200849B7A /* Info.plist */,
 			);
 			path = SpringRandomizer;
+			sourceTree = "<group>";
+		};
+		343B20C0984A293A1A01D780 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D19C388D1B967ADECDD2BAD6 /* Pods_SpringRandomizer.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +98,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 315AC5BE278E0DD200849B7A /* Build configuration list for PBXNativeTarget "SpringRandomizer" */;
 			buildPhases = (
+				5D78BAC1E127A6BA2D4A7816 /* [CP] Check Pods Manifest.lock */,
 				315AC5A6278E0DD100849B7A /* Sources */,
 				315AC5A7278E0DD100849B7A /* Frameworks */,
 				315AC5A8278E0DD100849B7A /* Resources */,
+				09F6BB52DBFCD6AC78965299 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -133,12 +159,54 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		09F6BB52DBFCD6AC78965299 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SpringRandomizer/Pods-SpringRandomizer-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SpringRandomizer/Pods-SpringRandomizer-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-SpringRandomizer/Pods-SpringRandomizer-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5D78BAC1E127A6BA2D4A7816 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SpringRandomizer-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		315AC5A6278E0DD100849B7A /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				315AC5B2278E0DD100849B7A /* ViewController.swift in Sources */,
+				315AC5B2278E0DD100849B7A /* SpringRandomizerViewController.swift in Sources */,
 				315AC5AE278E0DD100849B7A /* AppDelegate.swift in Sources */,
 				315AC5B0278E0DD100849B7A /* SceneDelegate.swift in Sources */,
 			);
@@ -284,6 +352,7 @@
 		};
 		315AC5BF278E0DD200849B7A /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = CD00E9C6DE8BDF021BEA6F03 /* Pods-SpringRandomizer.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -297,6 +366,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -306,12 +376,13 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
 		315AC5C0278E0DD200849B7A /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B0E51099D33303DEB2C90103 /* Pods-SpringRandomizer.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -325,6 +396,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -334,7 +406,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
